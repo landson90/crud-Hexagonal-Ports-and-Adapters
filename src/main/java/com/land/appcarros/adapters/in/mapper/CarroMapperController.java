@@ -14,7 +14,6 @@ public interface CarroMapperController {
 
     CarroResponse toCarroResponse(CarroDomain carroDomain);
 
-    @Mapping(target = "id", ignore = true)
     CarroDomain toCarroDomain(CarroRequest request);
 
     List<CarroResponse> toCarroResponseList(List<CarroDomain> carroDomainList);

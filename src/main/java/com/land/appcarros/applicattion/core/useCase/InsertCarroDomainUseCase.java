@@ -16,4 +16,5 @@ public class InsertCarroDomainUseCase implements InsertCarroDomainInputPort {
     public CarroDomain insert(CarroDomain carroDomain) {
         return insertCarroOutputPort.insert(carroDomain);
     }
+
 }

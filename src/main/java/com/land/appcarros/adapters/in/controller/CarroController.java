@@ -21,9 +21,6 @@ public class CarroController {
     private EditCarroDomainInputPort editCarroDomainInputPort;
     private  DeleteCarroDomainInputPort deleteCarroDomainInputPort;
     private ShowCarroDomainInputPort showCarroDomainInputPort;
-
-
-
     private CarroMapperController mapper;
     @Autowired
     public CarroController(InsertCarroDomainInputPort insertCarroDomainInputPort,

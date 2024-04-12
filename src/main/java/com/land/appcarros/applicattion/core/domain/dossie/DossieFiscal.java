@@ -1,2 +1,4 @@
-package com.land.appcarros.applicattion.core.domain.dossie;public class DossieFiscal {
+package com.land.appcarros.applicattion.core.domain.dossie;
+
+public class DossieFiscal {
 }
